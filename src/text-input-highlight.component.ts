@@ -91,7 +91,8 @@ export interface TagMouseEvent {
       [innerHtml]="highlightedText"
       #highlightElement>
     </div>
-  `
+  `,
+  styleUrls: ['./text-input-highlight.scss'],
 })
 export class TextInputHighlightComponent implements OnChanges, OnDestroy {
   /**
